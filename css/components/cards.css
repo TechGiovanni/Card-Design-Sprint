@@ -1,0 +1,96 @@
+/* Your card CSS file */
+
+.card-category {
+  height: 180px;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px rgba(0,0,0, 0.3);
+
+
+}
+
+/* card 2  */
+.card-product {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0px;
+  gap: 10px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+}
+.card-img {
+  height: 100%;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.card-text-flex h2 {
+  font-size: 16px;
+}
+.card-text-flex > p {
+  font-size: 12px;
+}
+
+/* card 3 */
+
+.card-trip {
+  overflow: hidden;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+.card-up-img {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.card-text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+
+.titles p, h2 {
+  margin: 0;
+}
+.titles > h2 {
+  font-size: 17px;
+}
+.titles > p {
+  font-size: 12px;
+}
+.price {
+  /* position: relative; */
+}
+
+.price img{
+  position: absolute;
+  bottom: 18%;
+  right: 2%;
+  margin-top: -20px ;
+  /* bottom: 18%; */
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.price > h2 {
+ font-size: 14px;;
+}
